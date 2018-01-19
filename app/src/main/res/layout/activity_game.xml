@@ -78,4 +78,21 @@
         android:layout_alignEnd="@+id/textPartB"
         android:text="Button"
         android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_toStartOf="@+id/buttonChoice2"
+        android:text="Score: 999" />
+
+    <TextView
+        android:id="@+id/textLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textPartA"
+        android:layout_alignTop="@+id/textScore"
+        android:text="Level: 4" />
 </RelativeLayout>
